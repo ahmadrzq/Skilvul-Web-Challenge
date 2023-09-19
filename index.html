@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kelontong</title>
+
+    <!--! Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900"
+      rel="stylesheet"
+    />
+
+    <!--! LINK CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--* HEADER -->
+    <header class="header">
+      <!--* NAVBAR -->
+      <nav class="nav flex-y">
+        <div class="nav__logo flex-y">
+          <a class="logo__text" href="index.html">Kelontong</a>
+        </div>
+        <div class="nav__mid flex-y">
+          <div class="nav__search">
+            <input class="input__search" type="text" placeholder="Search" />
+            <img class="icon__search" src="Assets/search.svg" alt="" />
+          </div>
+          <div class="nav__btn-checkout">
+            <img class="icon__checkout" src="Assets/Vector.svg" alt="" />
+          </div>
+        </div>
+        <div class="nav__btn-auth flex-y">
+          <button class="btn__login">Masuk</button>
+          <button class="btn__register">Daftar</button>
+        </div>
+        <div class="nav__bars">
+            <div class="bars__line" id="bar-line">
+                <hr>
+                <hr>
+                <hr>
+            </div>
+
+            <div class="menu__bar" id="menu-bar">
+                <div class="close">
+                    <div class="btn__close" id="btn-close">X</div>
+                </div>
+                <div class="menu__first flex-y">
+                    <div class="nav__search">
+                        <input class="input__search" type="text" placeholder="Search" />
+                        <img class="icon__search" src="Assets/search.svg" alt="" />
+                      </div>
+                      <div class="nav__btn-checkout">
+                        <img class="icon__checkout" src="Assets/Vector.svg" alt="" />
+                      </div>
+                </div>
+                <div class="menu__second flex-y">
+                    <button class="btn__login">Masuk</button>
+                    <button class="btn__register">Daftar</button>
+                  </div>
+            </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--* MAIN -->
+    <main class="main">
+      <!--* BANNER -->
+      <section class="banner section">
+        <img class="banner__img" src="Assets/banner.png" alt="" />
+      </section>
+
+      <!--* Tagline -->
+      <section class="tagline section">
+        <div class="first">
+          <div class="first__img">
+            <img src="Assets/tagline 1.png" alt="">
+          </div>
+          <div class="first__text">
+            <h1>Mempermudah kamu mengelola tokomu!</h1>
+            <p>Kelontong membantumu mengelola tokomu mulai dari ringkasan penjualan hingga mengedit produk penjualan hanya dengan 1 klik</p>
+          </div>
+        </div>
+        <div class="second">
+          <div class="second__text">
+            <h1>Belanja kapanpun, dimanapun!</h1>
+            <p>Kelontong memberikanmu pengalaman belanja yang mudah 24 jam, tanpa perlu antri dan jaminan 1 jam sampai.</p>
+          </div>
+          <div class="second__img">
+            <img src="Assets/tagline 2.png" alt="">
+          </div>
+        </div>
+      </section>
+
+      <!--* ITEMS -->
+      <section class="items section">
+        <div class="items__text flex-y">
+            <h1>Barang pilihan untuk pengguna baru</h1>
+            <a href="">Lihat semua barang</a>
+        </div>
+        <div class="items__cards">
+            <div class="item">
+                <img class="item__img" src="Assets/barang 1.png" alt="">
+                <h4 class="item__name">Pringless original 150gr</h4>
+                <h2 class="item__price">Rp 15.000</h2>
+                <div class="rating flex-y">
+                    <div class="number">4.5</div>
+                    <div class="stars flex-y">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/half-star.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="item__img" src="Assets/barang 2.png" alt="">
+                <h4 class="item__name">MacZ Blado 25gr</h4>
+                <h2 class="item__price">Rp 5.000</h2>
+                <div class="rating flex-y">
+                    <div class="number">4.5</div>
+                    <div class="stars flex-y">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/half-star.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="item__img" src="Assets/barang 3.png" alt="">
+                <h4 class="item__name">Chiki Balls keju 35gr</h4>
+                <h2 class="item__price">Rp 8.000</h2>
+                <div class="rating flex-y">
+                    <div class="number">4.5</div>
+                    <div class="stars flex-y">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/half-star.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="item__img" src="Assets/barang 4.png" alt="">
+                <h4 class="item__name">Potabee BBQ 35gr</h4>
+                <h2 class="item__price">Rp 8.000</h2>
+                <div class="rating flex-y">
+                    <div class="number">4.5</div>
+                    <div class="stars flex-y">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/half-star.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="item__img" src="Assets/barang 5.png" alt="">
+                <h4 class="item__name">Lays seaweed 44gr</h4>
+                <h2 class="item__price">Rp 10.000</h2>
+                <div class="rating flex-y">
+                    <div class="number">4.5</div>
+                    <div class="stars flex-y">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/half-star.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="item__img" src="Assets/barang 1.png" alt="">
+                <h4 class="item__name">Pringless original 150gr</h4>
+                <h2 class="item__price">Rp 15.000</h2>
+                <div class="rating flex-y">
+                    <div class="number">4.5</div>
+                    <div class="stars flex-y">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/half-star.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="item__img" src="Assets/barang 2.png" alt="">
+                <h4 class="item__name">MacZ Blado 25gr</h4>
+                <h2 class="item__price">Rp 5.000</h2>
+                <div class="rating flex-y">
+                    <div class="number">4.5</div>
+                    <div class="stars flex-y">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/half-star.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="item__img" src="Assets/barang 3.png" alt="">
+                <h4 class="item__name">Chiki Balls keju 35gr</h4>
+                <h2 class="item__price">Rp 8.000</h2>
+                <div class="rating flex-y">
+                    <div class="number">4.5</div>
+                    <div class="stars flex-y">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/half-star.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="item__img" src="Assets/barang 4.png" alt="">
+                <h4 class="item__name">Potabee BBQ 35gr</h4>
+                <h2 class="item__price">Rp 8.000</h2>
+                <div class="rating flex-y">
+                    <div class="number">4.5</div>
+                    <div class="stars flex-y">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/half-star.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="item__img" src="Assets/barang 5.png" alt="">
+                <h4 class="item__name">Lays seaweed 44gr</h4>
+                <h2 class="item__price">Rp 10.000</h2>
+                <div class="rating flex-y">
+                    <div class="number">4.5</div>
+                    <div class="stars flex-y">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/star.svg" alt="">
+                        <img class="star" src="Assets/half-star.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!--* SUBSCRIBE -->
+      <section class="subscribe section">
+        <div class="subscribe__text">
+            <h1>Dapatkan lebih banyak info menarik dengan berlangganan email</h1>
+        </div>
+        <form class="subscribe__form">
+            <input class="form__name" type="text" placeholder="Name" >
+            <input class="form__username" type="text" placeholder="Username" >
+            <input class="form__phone" type="number" min="0" placeholder="Phone" >
+            <input class="form__email" type="email" placeholder="Email" >
+            <button class="btn__submit" type="submit">Subscribe</button>
+        </d>
+      </section>
+
+    </main>
+
+    <!--* Footer -->
+    <footer class="footer">
+        <div class="footer__logo">
+            <a class="logo__text" href="index.html">Kelontong</a>
+            <p>All rights reserved  © 2023</p>
+        </div>
+        <div class="footer__navigation">
+            <div class="footer__nav-about">
+                <h2>Tentang</h2>
+                <ul>
+                    <li><a href="#">Kelontong</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Mitra</a></li>
+                </ul>
+            </div>
+            <div class="footer__nav-buy">
+                <h2>Jual & Beli</h2>
+                <ul>
+                    <li><a href="#">Edukasi Seller</a></li>
+                    <li><a href="#">Kelontong COD</a></li>
+                </ul>
+            </div>
+            <div class="footer__nav-help">
+                <h2>Bantuan & Panduan</h2>
+                <ul>
+                    <li><a href="#">Customer Care</a></li>
+                    <li><a href="#">Syarat & Ketentuan</a></li>
+                    <li><a href="#">Kebijakan Privasi</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!--! SCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>
