@@ -311,10 +311,11 @@ img {
 }
 .form__validation {
   display: flex;
+  width: 50%;
 }
 #status {
-  width: 18px;
-  margin-right: 9px;
+  width: 1.2rem;
+  margin-right: 0.5rem;
 }
 .btn__submit {
   background: #1890ff;

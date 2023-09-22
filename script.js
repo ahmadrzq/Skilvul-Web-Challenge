@@ -53,10 +53,10 @@ function validateFormData(obj) {
 const form = document.querySelector("form");
 const warning = document.querySelector("#warning");
 
-function submit(e) {
+function submit() {
   const input = validateFormData(handleGetFormData());
   if (input === false) {
-    e.preventDefault();
+    event.preventDefault();
     warning.innerHTML = "<p>Periksa form anda sekali lagi</p>";
   } else {
     warning.innerHTML = "";
