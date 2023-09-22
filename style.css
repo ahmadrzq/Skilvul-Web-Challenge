@@ -309,6 +309,13 @@ img {
   border: 1px solid #dfe3e8;
   background: #fff;
 }
+.form__validation {
+  display: flex;
+}
+#status {
+  width: 18px;
+  margin-right: 9px;
+}
 .btn__submit {
   background: #1890ff;
   padding: 8px 12px;
